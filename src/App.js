@@ -370,7 +370,8 @@ class App extends Component {
           />
           <ul className="nav-elements">
             <li>
-              <p className="score-para-2 span-items">score: {score}</p>
+              <p className="score-para-2">Score:</p>
+              <p className=" span-items">{score}</p>
             </li>
             <div className="time-container">
               <li>
